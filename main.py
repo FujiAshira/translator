@@ -22,7 +22,6 @@ def TryImport(Library,FullLibraryName="", ImportAs=""):
 # importing
 import tkinter as tk
 import tkinter.messagebox
-import cgitb as cgb
 import time
 exec(TryImport(Library="googletrans",FullLibraryName="googletrans==4.0.0-rc1"))
 # import googletrans
